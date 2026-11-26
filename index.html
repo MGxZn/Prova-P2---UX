@@ -1,0 +1,3 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Experimento A/B OfficeSupply</title></head><body><p>Carregando versão do experimento...</p><script>
+(function(){let v=localStorage.getItem('office_ab_variant');if(!v){v=Math.random()<.5?'A':'B';localStorage.setItem('office_ab_variant',v);}console.log('Experimento OfficeSupply: variante',v);location.replace(v==='A'?'product-page-control.html':'product-page-variant.html');})();
+</script></body></html>
